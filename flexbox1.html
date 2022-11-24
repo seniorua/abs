@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/flexbox.css">
+    <link rel="shortcut icon" href="assets/images/ico.png" type="image/png">
+    <title>Работа с флексбоксами</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Работа с флексбоксами(заготовка)</h2>
+        <!--******************************************-->
+        <h3>Вот так выглядят простые блоки:</h3>
+        <div class="block">
+            <div class="block_1 block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Вот так выглядят блоки к которым применено свойство display: flex;</h3>
+        <div class="block">
+            <div class="block_fl block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением inline-flex:</h3>
+        <div class="block">
+            <div class="block_in_fl block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content. По умолчанию стоит значение flex-start:</h3>
+        <div class="block">
+            <div class="block_jc block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content? flex-end:</h3>
+        <div class="block">
+            <div class="block_jc_fe block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content? flex-center:</h3>
+        <div class="block">
+            <div class="block_jc_ce block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content: space-between;</h3>
+        <div class="block">
+            <div class="block_jc_sb block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content: space-araund;</h3>
+        <div class="block">
+            <div class="block_jc_sa block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h3>Блок с отображением justify-content: space-evenly;</h3>
+        <div class="block">
+            <div class="block_jc_sev block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали:</h2>
+        <h3>Блок с отображением justify-content: space-evenly;</h3>
+        <div class="block">
+            <div class="block_jc_sev block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали, align-items:</h2>
+        <h3>Значение stretch</h3>
+        <div class="block">
+            <div class="block_ai_st block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item change">2<br>Шире и выше</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали, align-items:</h2>
+        <h3>Значение flex-start</h3>
+        <div class="block">
+            <div class="block_ai_start block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item change">2<br>Шире и выше</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали, align-items:</h2>
+        <h3>Значение flex-end</h3>
+        <div class="block">
+            <div class="block_ai_end block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item change">2<br>Шире и выше</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали, align-items:</h2>
+        <h3>Значение center</h3>
+        <div class="block">
+            <div class="block_ai_center block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item change">2<br>Шире и выше</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Выравнивание элементов по вертикали, align-items:</h2>
+        <h3>Значение baceline</h3>
+        <div class="block">
+            <div class="block_ai_baceline block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item change">2<br>Шире и выше</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Свойство flex-wrap. При уменшении области блоки перескакивают. 
+            По умолчанию стоит значение nowrap</h2>
+        <h3>Значение wrap:</h3>
+        <div class="block">
+            <div class="block_wrap block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+        <h2>Свойство flex-wrap. При уменшении области блоки перескакивают, 
+            но располагаются сзаду на перед.</h2>
+        <h3>Значение wrap:</h3>
+        <div class="block">
+            <div class="block_wrap_rev block_row">
+                <div class="block_column">
+                    <div class="block_item">1</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">2</div>
+                </div>
+                <div class="block_column">
+                    <div class="block_item">3</div>
+                </div>
+            </div>
+        </div>
+        
+        <ul class="block_list">
+            <li>
+                <div class="block_info block_info_y">FLEX-контейнер</div>
+            </li>
+            <li>
+                <div class="block_info block_info_b">FLEX-элемент</div>
+            </li>
+            <li>
+                <div class="block_info block_info_g" >Содержимое FLEX-элемента(контент)</div>
+            </li>
+        </ul>
+        <!--******************************************-->
+    </div>
+    </div>
+</body>
+</html>
